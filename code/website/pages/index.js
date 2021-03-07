@@ -7,7 +7,6 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ee86429af3b74c2b8080b70f1b58eb84"}'></script>
       </Head>
 
       <main className={styles.main}>
