@@ -1,6 +1,5 @@
 # The History of Nothing
-
-In the beginning (2009) there was Bitcoin and a couple of bitcoin blocks later (666,050 to be exact) in January of 2021 there was the Stacks 2.0 blockchain. A network to build a better internet, owned by the users. That is *nothing* new to you because you are here and you already know the Stacks 2.0 network, right?
+Once upon a time, in the beginning of 2009, there was Bitcoin and a couple of Bitcoin blocks floated on internet and nobody cared! But now it's a king!... later on, in January of 2021 (at block 666,050 to be exact) the Stacks 2.0 blockchain came into existence from a Bitcoin sperm. A network to build a better internet, owned by the users on the top of Bitcoin blockchain!... A while later, a notion stroke into someone's head that why state's money should matters at all?! And what distinguishes money from nothing?! While spiritualist say money is literally nothing, could nothing become money in reverse?!
 
 ## Nothing(42) and Micro-Nothing ($MNO)
 
