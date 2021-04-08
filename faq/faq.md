@@ -6,7 +6,7 @@ Because it could be; To prove that it could be; Because it was decided by the fo
 
 **Why is it called Nothing?**
 
-Well it is not called Nothing because it is nothing. It is called Nothing to make it a formidable meme coin. Often in the world of cryptographic coins these coins are valued higher than any fiat currency because fiat currency nowadays are backed by nothing. Nothing is better than that because it is immutable! No more than 100 Trillion MNO will ever exist in the world. You know this to be true because it is anchored to the most immutable blockchain on the planet: Bitcoin. And hence the punchline; Nothing is more immutable then your mama™.
+Nothing with capital "N" is actually something! Well it is not called Nothing because it is nothing. It is called Nothing to make it a formidable meme coin. Often in the world of cryptographic coins these coins are valued higher than any fiat currency because fiat currency nowadays are backed by nothing. Nothing is better than that because it is immutable! No more than 100 Trillion MNO will ever exist in the world. You know this to be true because it is anchored to the most immutable blockchain on the planet: Bitcoin. And hence the punchline; Nothing is more immutable then your mama™.
 
 **How can I transfer Nothing?**
 
