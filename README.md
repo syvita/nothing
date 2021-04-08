@@ -1,3 +1,9 @@
-**NOTE: this is the new home place for the Nothing token. the legacy website's code is available [here](https://github.com/mtavrse/nothing-web).**
+# Our vision for Nothing
 
-# Nothing token
+**Vision Statement**
+
+Our vision is to create a better everyday life on Stacks for all to accomplish more… and to become the most memed token in the world
+
+**Slogan**
+
+Anchored to bitcoin and more immutable then your mama™
