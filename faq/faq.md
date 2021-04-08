@@ -2,7 +2,7 @@
 
 **Why was Nothing created?**
 
-Because it could be; To prove that it could be; Because it was decided by the founders.
+Maybe to show that even fun and joy could be more trustable value comparing to states fiat moneys?!... And because it could be! 
 
 **Why is it called Nothing?**
 
