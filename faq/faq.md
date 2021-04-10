@@ -20,7 +20,7 @@ Other wallets we like are: [https://Boom.money](https://boom.money) and Xverse w
 
 Testing was done on Mainnet… you should really test contracts on testnet because everything you create on the mainnet is immutable. We learned this lesson for you, feel free to thank us later by testing your own contracts on testnet or your private mocknet first ;-)
 
-It is called Wrapped Nothing and although the contract was deployed on Stacks 2.0 on March 11th it wasn’t until March 2 that the Nothing telegram group was created.
+In the current contract Nothing is called Wrapped Nothing and although the contract was deployed on Stacks 2.0 on March 11th it wasn’t until the end of March before the first ~18 Trillion MNO was wrapped to create WMNO for distribution by the Nothing faucet at nothingtoken.com.
 
 **Can I mint xUSD using WMNO as collateral?**
 
