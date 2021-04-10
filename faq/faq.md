@@ -20,13 +20,11 @@ Other wallets we like are: [https://Boom.money](https://boom.money) and Xverse w
 
 Testing was done on Mainnet… you should really test contracts on testnet because everything you create on the mainnet is immutable. We learned this lesson for you, feel free to thank us later by testing your own contracts on testnet or your private mocknet first ;-)
 
-It is called Wrapped Nothing and although the contract was deployed on Stacks 2.0 on March 11th it wasn’t until
-
-March 2 the Nothing telegram group was created.
+It is called Wrapped Nothing and although the contract was deployed on Stacks 2.0 on March 11th it wasn’t until March 2 that the Nothing telegram group was created.
 
 **Can I mint xUSD using WMNO as collateral?**
 
-xUSD is a stablecoin on Stacks soft-pegged to the USD: minted at the Crypto/Difi bank: Arkadiko. ****In theory Arkadiko supports WMNO tokens or any other token that adheres to the SIP010 standard for fungible tokens (FT). By the March 2021 calculation you would need an infinite amount of Nothing to mint one xUSD ;-)
+xUSD is a stablecoin on Stacks soft-pegged to the USD: minted at the Crypto/Defi bank: Arkadiko. ****In theory Arkadiko supports WMNO tokens or any other token that adheres to the SIP010 standard for fungible tokens (FT). By the March 2021 calculation you would need an infinite amount of Nothing to mint one xUSD ;-)
 
 **What is the first meme created in honor of the Nothing token?**
 
