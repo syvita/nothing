@@ -2,7 +2,7 @@
 
 **Why was Nothing created?**
 
-Maybe to show that even fun and joy could be more trustable value comparing to states fiat moneys?!... And because it could be! 
+To show that even fun and joy could be more trustable value comparing to states fiat moneys?... And because it could be! 
 
 **Why is it called Nothing?**
 
