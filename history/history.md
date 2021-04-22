@@ -24,9 +24,13 @@ Micro-Nothing at Stacks block #5235 and Bitcoin block height 672454 (February 20
 
 [https://explorer.stacks.co/txid/SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.micro-nthng?chain=mainnet](https://explorer.stacks.co/txid/SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.micro-nthng?chain=mainnet)
 
-Wrapped Nothing at Stacks block #6644 and Bitcoin block height 674048 (11th of March 2021)
+Wrapped Nothing (v5) at Stacks block #6644 and Bitcoin block height 674048 (11th of March 2021) this was used for the faucet for a short period of time before we fixed a miner issue with v6. If you have some of these WMNO's you can unwrap MNO them using this contract and wrap them with the final contract v6.
 
 [https://explorer.stacks.co/txid/SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.wrapped-nothing-v5?chain=mainnet](https://explorer.stacks.co/txid/SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.wrapped-nothing-v5?chain=mainnet)
+
+Wrapped Nothing at Stacks block #11548 and Bitcoin block height 679615 (18th of April 2021)
+
+[https://explorer.stacks.co/txid/0x022bed728d648ff1a68036c40f3aff8136ee22fee18380731df0ab9d76d3c4a9?chain=mainnet](https://explorer.stacks.co/txid/0x022bed728d648ff1a68036c40f3aff8136ee22fee18380731df0ab9d76d3c4a9?chain=mainnet)
 
 @fluidvoice coining the term "NoBro" (1st of March 2021)
 
