@@ -19,6 +19,7 @@ export default class App extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ee86429af3b74c2b8080b70f1b58eb84"}'></script>
         <ToastProvider>
           <div className="site-wrapper">
             <div className="site-wrapper-inner">
