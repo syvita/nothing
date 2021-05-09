@@ -103,6 +103,65 @@ export class HiroMainnet implements StacksNetwork {
   }
 }
 
+export class SyvitaMainnet implements StacksNetwork {
+  version = 0x00;
+  chainId = 0x00000001;
+  coreApiUrl = 'https://mainnet.syvita.org';
+  bnsLookupUrl = 'https://mainnet.syvita.org';
+  broadcastEndpoint = '/v2/transactions';
+  transferFeeEstimateEndpoint = '/v2/fees/transfer';
+  accountEndpoint = '/v2/accounts';
+  contractAbiEndpoint = '/v2/contracts/interface';
+  readOnlyFunctionCallEndpoint = '/v2/contracts/call-read';
+
+  isMainnet = () => this.version === 0x00;
+  getBroadcastApiUrl = () => `${this.coreApiUrl}${this.broadcastEndpoint}`;
+  getTransferFeeEstimateApiUrl = () => `${this.coreApiUrl}${this.transferFeeEstimateEndpoint}`;
+  getAccountApiUrl = (address: string) =>
+    `${this.coreApiUrl}${this.accountEndpoint}/${address}?proof=0`;
+  getAbiApiUrl = (address: string, contract: string) =>
+    `${this.coreApiUrl}${this.contractAbiEndpoint}/${address}/${contract}`;
+  getReadOnlyFunctionCallApiUrl = (
+    contractAddress: string,
+    contractName: string,
+    functionName: string
+  ) =>
+    `${this.coreApiUrl}${this.readOnlyFunctionCallEndpoint
+    }/${contractAddress}/${contractName}/${encodeURIComponent(functionName)}`;
+  getInfoUrl = () => `${this.coreApiUrl}/v2/info`;
+  getBlockTimeInfoUrl = () => `${this.coreApiUrl}/extended/v1/info/network_block_times`;
+  getPoxInfoUrl = () => `${this.coreApiUrl}/v2/pox`;
+  getStackerInfoUrl = (contractAddress: string, contractName: string) =>
+    `${this.coreApiUrl}${this.readOnlyFunctionCallEndpoint}
+      ${contractAddress}/${contractName}/get-stacker-info`;
+  getNameInfo(fullyQualifiedName: string) {
+    /*
+      TODO: Update to v2 API URL for name lookups
+    */
+    const nameLookupURL = `${this.bnsLookupUrl}/v1/names/${fullyQualifiedName}`;
+    return fetchPrivate(nameLookupURL)
+      .then(resp => {
+        if (resp.status === 404) {
+          throw new Error('Name not found');
+        } else if (resp.status !== 200) {
+          throw new Error(`Bad response status: ${resp.status}`);
+        } else {
+          return resp.json();
+        }
+      })
+      .then(nameInfo => {
+        // the returned address _should_ be in the correct network ---
+        //  blockstackd gets into trouble because it tries to coerce back to mainnet
+        //  and the regtest transaction generation libraries want to use testnet addresses
+        if (nameInfo.address) {
+          return Object.assign({}, nameInfo, { address: nameInfo.address });
+        } else {
+          return nameInfo;
+        }
+      });
+  }
+}
+
 export class HiroTestnet extends HiroMainnet implements StacksNetwork {
   version = 0x80;
   chainId = 0x80000000;
