@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy-api-prod:
-    if: ${{ github.branch == 'main' }}
+    if: ${{ github.branch != 'main' }}
     runs-on: ubuntu-latest
     name: Deploy API to Production
     steps:
@@ -18,7 +18,7 @@ jobs:
           environment: 'production'
           workingDirectory: 'packages/api'
   deploy-api-preview:
-    if: ${{ github.branch != 'main' }}
+    if: ${{ github.branch == 'main' }}
     runs-on: ubuntu-latest
     name: Deploy API to Preview
     steps:
@@ -30,7 +30,7 @@ jobs:
           environment: 'preview'
           workingDirectory: 'packages/api'
   deploy-scheduled-send-many-prod:
-    if: ${{ github.branch == 'main' }}
+    if: ${{ github.branch != 'main' }}
     runs-on: ubuntu-latest
     name: Deploy scheduled-send-many to production
     steps:
@@ -42,7 +42,7 @@ jobs:
           environment: 'production'
           workingDirectory: 'packages/scheduled-send-many'
   deploy-scheduled-send-many-preview:
-    if: ${{ github.branch != 'main' }}
+    if: ${{ github.branch == 'main' }}
     runs-on: ubuntu-latest
     name: Deploy scheduled-send-many to preview
     steps:
