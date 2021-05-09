@@ -1,6 +1,8 @@
 name = "scheduled-send-many"
 type = "webpack"
+
 account_id = "c60e829b3831ea5b11b2398ef68bda23"
+
 workers_dev = true
 webpack_config = "webpack.config.js"
 
