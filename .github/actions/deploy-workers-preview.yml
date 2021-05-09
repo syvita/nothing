@@ -4,6 +4,7 @@ on:
     branches:
       - '**'
       - '!main'
+      - 'backend-revamp'
 
 jobs:
   deploy-api:
