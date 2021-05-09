@@ -1,9 +1,8 @@
 name: Deploy CF Workers (preview)
 on:
   push:
-    branches:
-      - '**'
-      - '!main'
+    branches-ignore:
+      - main
 
 jobs:
   deploy-api:
