@@ -1,0 +1,29 @@
+name: Deploy CF Workers (prod)
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-api:
+    runs-on: ubuntu-latest
+    name: Deploy API
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish
+        uses: cloudflare/wrangler-action@1.2.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'production'
+          workingDirectory: 'packages/api'
+  deploy-scheduled-send-many:
+    runs-on: ubuntu-latest
+    name: Deploy scheduled-send-many
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish
+        uses: cloudflare/wrangler-action@1.2.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'production'
+          workingDirectory: 'packages/scheduled-send-many'
