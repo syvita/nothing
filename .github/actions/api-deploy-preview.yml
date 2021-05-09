@@ -1,7 +1,8 @@
+name: Deploy API (preview)
 on:
   push:
     branches:
-      - '*'
+      - '**'
       - '!main'
 
 jobs:
