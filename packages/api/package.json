@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "pxydn <pxydn@pm.me>",
+  "license": "who knows",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@stacks/common": "^1.2.2",
+    "@stacks/keychain": "^1.5.0-alpha.0",
+    "@stacks/network": "^1.5.0-alpha.0",
+    "@stacks/transactions": "^1.4.1",
+    "bn.js": "^5.2.0",
+    "body-parser": "^1.19.0"
+  }
+}

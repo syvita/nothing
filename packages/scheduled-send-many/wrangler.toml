@@ -1,0 +1,15 @@
+name = "scheduled-send-many"
+type = "webpack"
+account_id = "c60e829b3831ea5b11b2398ef68bda23"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+kv_namespaces = [
+  { binding = "FAUCET_DB", id = "ca38ba9e95754cf3a8b5e26f7f2043f0", preview_id = "8474b474c6014cc2ad0ccc65e4e2602c" },
+]
+
+[env.staging]
+name = "nothing-api-staging"
+
+[env.production]
+name = "nothing-api-production"
