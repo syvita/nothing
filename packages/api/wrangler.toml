@@ -9,7 +9,7 @@ kv_namespaces = [
 
 [env.preview]
 name = "nothing-api-preview"
-route = "//preview.api.nothingtoken.com/*"
+route = "https://preview.api.nothingtoken.com/*"
 
 [env.production]
 name = "nothing-api-production"
