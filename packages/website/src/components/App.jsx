@@ -2,20 +2,9 @@ import React, { Component } from 'react';
 import {Text, Box} from '@blockstack/ui'
 import { Header } from './Header';
 import { ThemeProvider, theme, CSSReset, ToastProvider } from '@blockstack/ui';
-import { userSession } from '../auth';
 import StackingResult from './StackingResult';
 
 export default class App extends Component {
-  state = {
-    userData: null,
-  };
-
-  handleSignOut(e) {
-    e.preventDefault();
-    this.setState({ userData: null });
-    userSession.signUserOut(window.location.origin);
-  }
-
   render() {
     return (
       <ThemeProvider theme={theme}>
@@ -39,16 +28,5 @@ export default class App extends Component {
         <CSSReset />
       </ThemeProvider>
     );
-  }
-
-  componentDidMount() {
-    if (userSession.isSignInPending()) {
-      userSession.handlePendingSignIn().then(userData => {
-        window.history.replaceState({}, document.title, '/');
-        this.setState({ userData: userData });
-      });
-    } else if (userSession.isUserSignedIn()) {
-      this.setState({ userData: userSession.loadUserData() });
-    }
   }
 }
