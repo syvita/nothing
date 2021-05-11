@@ -1,5 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { validateStacksAddress } from '@stacks/transactions';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Flex, Box, Text, Input, Button } from '@blockstack/ui';
 
 const getContractBalance = async () => {
