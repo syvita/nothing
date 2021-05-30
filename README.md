@@ -6,4 +6,4 @@ Our vision is to create a better everyday life on Stacks for all to accomplish m
 
 **Slogan**
 
-Anchored to Bitcoin and more immutable then your mama™
+Anchored to Bitcoin and more immutable than your mama™
