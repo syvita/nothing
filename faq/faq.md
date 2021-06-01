@@ -4,7 +4,7 @@
 
 To show that even fun and joy could be more trustable value comparing to states fiat moneys?... And because it could be!
 
-Later someone commented: _We made a shitcoin on stx first, you can get that freely at nothingtoken.com so you don't have to make one yourself or get scammed to buy any._ which is also true, Nothing was made in service of the stx community for all to enjoy. 
+Later someone commented: _We made a shitcoin on stx first, you can get that freely at nothingtoken.com so you don't have to make one yourself or get scammed to buy any._ which is also true, Nothing was made in service of the stx community. 
 
 **Why is it called Nothing?**
 
