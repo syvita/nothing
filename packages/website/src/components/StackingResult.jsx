@@ -46,7 +46,7 @@ const StackingResult = () => {
         stx: Math.floor(data.stx.balance / 1000000),
         nothings:
           data.fungible_tokens[
-            'SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.wrapped-nothing-v6::wrapped-nthng'
+            'SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.wrapped-nothing-v8::wrapped-nthng'
           ].balance,
       });
     });
