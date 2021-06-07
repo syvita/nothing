@@ -1,0 +1,5 @@
+build-command: react-scripts build
+build-location: build
+
+deployment-model: edge
+deployment-type: prod
