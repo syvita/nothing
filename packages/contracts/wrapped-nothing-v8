@@ -37,10 +37,10 @@
 )
 
 (define-read-only (get-name)
-	(ok "Wrapped Nothing 7"))
+	(ok "Wrapped Nothing v8"))
 
 (define-read-only (get-symbol)
-	(ok "WMNO"))
+	(ok "WMNO8"))
 
 (define-read-only (get-decimals)
     	(ok u0))
