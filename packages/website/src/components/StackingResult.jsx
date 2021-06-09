@@ -112,7 +112,7 @@ const StackingResult = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer "
-                  href={`https://explorer.syvita.org/txid/0x${result}?chain=mainnet`}
+                  href={`https://explorer.stacks.co/txid/0x${result}?chain=mainnet`}
                 >
                   View here
                 </a>
@@ -128,7 +128,7 @@ const StackingResult = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer "
-                href={`https://explorer.syvita.org/address/SP31596TY1N33159BQCVEC9H16HP0KQ2VTD140157?chain=mainnet`}
+                href={`https://explorer.stacks.co/address/SP31596TY1N33159BQCVEC9H16HP0KQ2VTD140157?chain=mainnet`}
               >
                 SP31596TY1N33159BQCVEC9H16HP0KQ2VTD140157
               </a>{' '}
