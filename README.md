@@ -1,4 +1,4 @@
-# Our vision for Nothing
+<img src="https://x.syvita.org/repoheaders/nothing.png"></img>
 
 **Vision Statement**
 
