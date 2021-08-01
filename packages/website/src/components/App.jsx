@@ -10,7 +10,6 @@ export default class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <Helmet>
-          <script defer src='/synapse.min.js' data-cf-beacon='{"token": "ee86429af3b74c2b8080b70f1b58eb84"}'></script>
         </Helmet>
         <ToastProvider>
           <div className="site-wrapper">

@@ -12,7 +12,8 @@
     "Moxiegirl (https://github.com/moxiegirl)",
     "Sahana Srinivasan (https://github.com/Sahana-Srinivasan)",
     "Mark Hendrickson (https://github.com/markmhx)",
-    "Mohamed Huzayen (https://github.com/hozzjss)"
+    "Mohamed Huzayen (https://github.com/hozzjss)",
+    "Asteria (https://github.com/SyAsteria)"
   ],
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "@emotion/css": "^11.0.0",
     "@emotion/react": "^11.1.1",
     "@emotion/styled": "^11.0.0",
+    "@sentry/react": "^6.10.0",
+    "@sentry/tracing": "^6.10.0",
     "@stacks/connect": "^4.3.15",
     "@stacks/profile": "^1.0.0-beta.19",
     "@stacks/storage": "^1.0.0-beta.19",
