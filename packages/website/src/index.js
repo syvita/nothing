@@ -8,7 +8,7 @@ import App from './components/App';
 Sentry.init({
   dsn: "https://19208b8a3b22467e804f525610f6a4c1@logs.syvita.org/4",
   integrations: [new Integrations.BrowserTracing()],
-
+  release: process.env.npm_package_version,
   tracesSampleRate: 1.0,
   sendDefaultPii: false,
 });
