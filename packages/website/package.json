@@ -33,7 +33,7 @@
     "react-scripts": "^3.4.1",
     "styled-components": "^5.2.1",
     "uuid": "^8.1.0",
-    "ws": "^7.4.6"
+    "ws": "^7.5.3"
   },
   "prettier": "@blockstack/prettier-config",
   "scripts": {
