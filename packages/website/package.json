@@ -16,7 +16,7 @@
     "@blockstack/ui": "^2.13.0",
     "@emotion/core": "^11.0.0",
     "@emotion/css": "^11.0.0",
-    "@emotion/react": "^11.1.1",
+    "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.0.0",
     "@sentry/react": "^6.11.0",
     "@sentry/tracing": "^6.10.0",
