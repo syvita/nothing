@@ -1,10 +1,10 @@
 {
   "name": "nothing-token",
   "description": "A simple app powered by Stacks.js",
-  "author": "Asteria (https://github.com/SyAsteria)",
+  "author": "Asteria (https://github.com/syvirean)",
   "contributors": [
     "Mohamed Huzayen (https://github.com/hozzjss)",
-    "Asteria (https://github.com/SyAsteria)"
+    "Asteria (https://github.com/syvirean)"
   ],
   "repository": {
     "type": "git",
