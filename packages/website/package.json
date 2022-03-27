@@ -23,7 +23,7 @@
     "@stacks/connect": "^4.3.15",
     "@stacks/profile": "^1.0.0-beta.19",
     "@stacks/storage": "^1.0.0-beta.19",
-    "@stacks/transactions": "^1.1.1-alpha.0",
+    "@stacks/transactions": "^2.0.0",
     "blockstack": "^21.1.1",
     "export-from-json": "^1.4.0",
     "react": "^16.13.1",
